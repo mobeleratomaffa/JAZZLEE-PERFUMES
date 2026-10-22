@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: jazzlee-perfumes
+    runtime: static
+    buildCommand: echo "Static site; no build required"
+    staticPublishPath: ./public
+    autoDeployTrigger: commit
